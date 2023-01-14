@@ -2,7 +2,7 @@
 #include <stdlib.h>
 void bubbleSort(int arr[], int size){
     unsigned short int flag;
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i < size - 1; i++){
         flag = 1;
         for(int j = 0; j < size - i - 1; j++){
             if(arr[j] > arr[j + 1]){
