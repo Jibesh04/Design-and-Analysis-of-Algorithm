@@ -1,4 +1,4 @@
-/* length Longest Common Subsequence */
+/* Longest Common Subsequence */
 
 // COPYRIGHT JIBESH04
 
