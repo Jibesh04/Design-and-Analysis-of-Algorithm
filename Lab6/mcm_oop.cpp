@@ -107,7 +107,7 @@ void MCM::display(){
     cout<<"Division Matrix: "<<endl;
     printDivMatrix();
     cout<<endl<<"Multiplication Order: "<<endl;
-    printParenthesized(0, size - 1);
+    printParenthesized(1, size - 1);
     cout<<endl<<endl;
 }
 
@@ -140,6 +140,6 @@ Division Matrix:
 
 
 Multiplication Order: 
-(A0((A1(A2A3))A4))
+((A1(A2A3))A4)
 
 */
